@@ -1,0 +1,31 @@
+.clearfix {overflow: auto;}
+
+
+body div.index h2 {text-align: center; margin-bottom: 20px;}
+body div.team img {float: right; margin-left: 50px;} 
+div.quote h1 {font-size: 40px; color: #949494; text-align: justify; }
+div.quote h2, div.quote h5 {float: right; color: #9494da;}
+div.prins {float: none; margin-top: 30px;}
+div.prins ul {list-style: none;}
+div.prins ul li {display: inline-block;}
+div.prins ul li img {margin-left: 120px; margin-right: 120px;}
+
+div.assist {
+	width: 1000px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+div.assist div.asst {
+	margin-left: 15px;
+	width: 227.5px;
+	float: left;
+}
+
+div.asst img {margin-top: 10px;  display: block; margin-left: auto; margin-right: auto;}
+div.asst h3 {color: #343A40; text-align: center;}
+div.asst h5 {color: #444444; text-align: center;}
+div.asst p {color: #444444; text-align: justify; margin: 0 20px 0 20px;}
+div.assist div.asst:hover{box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)}

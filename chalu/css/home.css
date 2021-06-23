@@ -1,0 +1,210 @@
+*{margin: 0; padding: 0;  font-family: cursive;}
+
+P{ margin-bottom: 15px; color: #404; font-family: cursive; }
+
+a {color: red;}
+
+.clearfix {overflow: auto;}
+
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.topbar {
+	width: 1000px;
+	background: #660066;
+}
+.topbarLinks {
+	float: left;
+	padding-top: 7px;
+}
+.topbarLinks ul {
+	list-style-type: none;
+	margin: 15px;
+}
+
+.topbarLinks ul li {
+	display: inline-block;
+	padding: 0 15px;
+	border-right: 1px solid white;
+	margin-left: 10px;
+}
+
+.topbarLinks ul li:last-child{
+	border: none;
+} /*remove last Item border*/
+
+.topbarLinks ul li a {
+	font-family: arial;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 25px;
+}
+
+.topbarLinks ul li a:hover{
+	background: white;
+	color:#660066;
+}
+
+.topbarImg {
+	float: right;
+	margin: 10px;
+}
+
+
+.logo {float: left; margin-top: 15px; margin-left: 20px;}
+
+header .logo h1 {
+	font-size: 38px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+}
+
+header .socialmedia , div.footer div.footercont div.socialmedia {float: right; margin-top: 30px;}
+header .socialmedia ul , div.footer div.footercont div.socialmedia ul {list-style: none;}
+header .socialmedia ul li , div.footer div.footercont div.socialmedia ul li {display: inline-block;}
+
+header .socialmedia ul li a , div.footer div.footercont div.socialmedia ul li a {
+	margin-left: 5px;
+	padding: 6px;
+	background: #660066;
+	color: #efbbff ;
+	display: inline-block;
+	border-radius: 25px;
+}
+
+header .socialmedia ul li a:hover { background: #efbbff; color: #660066 ; 
+}
+
+nav{
+	margin-top: 20px;
+	background: #4b127c;
+	background: linear-gradient(#4b127c, #be29ec, #4b127c);
+	text-align: center;
+	border-radius: 5px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	margin: 10px 30px 10px 30px;
+	display: inline-block;
+}
+nav ul li a:hover{
+	color: #4b127c;
+	background: #efbbff;
+}
+
+div.intro {
+	width: 995px;
+	margin: 5px;
+}
+
+div.intro div.introImg {
+	width: 500px;
+	float: left;
+	margin-top: 30px;
+}
+
+div.intro div.introText {
+	width: 495px;
+	float: right;
+}
+
+div.intro h1 {
+	font-weight: normal;
+	margin-top: 55px;
+	font-size: 55px;
+	text-transform: uppercase;
+}
+
+div.introText p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+div.intro a{
+	text-transform: uppercase;
+	float: right;
+	color: red;
+}
+
+div.homeCont {
+	width: 1000px;
+	background: #F1D4D4;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+div.homeCol {
+	margin-left: 15px;
+	width: 313.33px;
+	float: left;
+}
+
+div.homeCol h2 {
+	margin: 30px 0 30px 0;
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+}
+
+div.homeCol a {float: right;}
+
+div.homeCol p {text-align: justify; margin-top: 10px; margin-left: 5px; margin-right: 5px;}
+
+div.homeCol h3 {text-align: center;}
+
+div.homeCol:hover{box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)}
+
+div.Values img {
+	width: 64px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 2px;
+}
+
+div.Values p{margin-bottom: 8px;}
+
+div.footer {
+	width: 1000px;
+	background: #660066;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+div.footer div.footercont {
+	margin-left: 15px;
+	width: 227.5px;
+	float: left;
+}
+div.footer div.footercont div.socialmedia {float: left; margin-top: 5px;}
+
+div.footercont img {margin-top: 10px;  display: block; margin-left: auto; margin-right: auto;}
+div.footercont h3 {color: #ddd3ee; text-align: center;}
+div.footercont p i {color: white; font-size: 35px; float: left; text-align: right;  padding-right: 15px;}
+div.footercont p {color: #ddd3ee;  margin-top: 20px; }
+div.footercont p a {color: #ddd3ee; text-decoration: none;}
+div.footercont p a:hover{color: #B026FF;}
+div.footercont:hover{box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)}
+
+footer div.bottom {background: #301934; height: 70px; margin-top:-10px;}
+footer div.bottom p {color: white; margin: 10px; font-family: sans-serif; font-size: 15px; text-align: center; padding-top: 15px;}
+footer div.bottom a {color: white; font-weight: bold; text-decoration: none;}
+	
+	
